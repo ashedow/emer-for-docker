@@ -4,10 +4,10 @@ Dockerfile and config for start emercoin docker
 
 ## How to use
 
-* Enshure that you installed docker-ce
+* Enshure that you installed docker-ce, git and so on
 
 * Clone this repo
-`git clone `
+`git clone https://github.com/ya-0/emer-for-docker.git`
 
 * Change the active directory
 `cd emer-for-docker`
