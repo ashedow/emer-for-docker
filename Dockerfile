@@ -21,7 +21,7 @@ RUN wget https://github.com/emercoin/emercoin/releases/download/v0.7.2emc/emerco
 RUN tar xvfz emercoin-0.7.2-x86_64-linux-gnu.tar.gz -C /
 
 COPY docker-entrypoint.sh /usr/local/bin/
-ENTRYPOINT ["docker-entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 
 EXPOSE 8332 8333
 VOLUME ["/data/emercoin"]
