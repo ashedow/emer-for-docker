@@ -25,5 +25,5 @@ ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 
 EXPOSE 8332 8333
 VOLUME ["/data/emercoin"]
-CMD ["/usr/bin/emercoind", "-datadir=/data/emercoin", "-printtoconsole"]
+CMD ["/emercoin-0.7.2/usr/bin/emercoind", "-datadir=/data/emercoin", "-printtoconsole"]
 
